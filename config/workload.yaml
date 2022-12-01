@@ -11,6 +11,9 @@ spec:
     - name: annotations
       value:
         autoscaling.knative.dev/minScale: "1"
+  env:
+    - name: BP_JVM_VERSION
+      value: 17
   source:
     git:
       ref:
