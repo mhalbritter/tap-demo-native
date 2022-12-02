@@ -5,6 +5,12 @@ tanzu apps workload tail tap-demo-native -n $NAMESPACE
 tanzu apps workload get tap-demo-native -n $NAMESPACE
 ```
 
+# Change
+
+```
+tanzu apps workload apply tap-demo-native -n $NAMESPACE -f config/workload.yaml
+```
+
 # Remove
 
 ```
